@@ -59,8 +59,10 @@ module.exports = function (req, res, next) {
         headers:
         {
             'cache-control': 'no-cache',
-            'fk-affiliate-token': '<fk-affiliate-token>',
-            'fk-affiliate-id': '<fk-affiliate-id>' } };
+            'fk-affiliate-token': 'b1a550211b474fc3b2dc2195def9ec82',
+            'fk-affiliate-id': 'sanjeevkr3'
+        }
+    };
 
     request(options, function (error, response, body) {
         if (error) throw new Error(error);
