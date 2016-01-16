@@ -1,4 +1,5 @@
 var request = require('request');
+var properties = require('./properties');
 
 module.exports = function (req, res, next) {
 
@@ -59,8 +60,8 @@ module.exports = function (req, res, next) {
         headers:
         {
             'cache-control': 'no-cache',
-            'fk-affiliate-token': 'b1a550211b474fc3b2dc2195def9ec82',
-            'fk-affiliate-id': 'sanjeevkr3'
+            'fk-affiliate-token': properties.token,
+            'fk-affiliate-id': properties.id
         }
     };
 
