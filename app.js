@@ -4,7 +4,7 @@ var path    = require("path");
 var url = require('url');
 
 var app = express();
-var port = 8888;//process.env.PORT || 8888;
+var port = process.env.PORT || 8888;
 var hellobot = require('./hellobot');
 
 // body parser middleware
