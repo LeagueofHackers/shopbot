@@ -10,8 +10,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "sanjeev",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeagueofHackers/shopbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeagueofHackers/shopbot/issues"
+  },
+  "homepage": "https://github.com/LeagueofHackers/shopbot#readme"
 }

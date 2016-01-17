@@ -18,6 +18,10 @@ app.get('/appinstall', function (req, res) {
         res.send("Success installed in your channel");
     }
 });
+
+app.get('/', function(req,res) {
+    res.send("Worked");
+});
 app.post('/', hellobot);
 app.get('/install', function (req, res) { res.sendFile(path.join(__dirname+'/install.html')); });
 
