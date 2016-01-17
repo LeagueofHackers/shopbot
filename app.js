@@ -16,6 +16,7 @@ app.get('/appinstall', function (req, res) {
     var code = url_parts.query.code;
     if(typeof code != "undefined") {
         res.send("Success installed in your channel");
+        res.redirect('https://slack.com/');
     }
 });
 
